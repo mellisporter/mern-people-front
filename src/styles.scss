@@ -19,7 +19,7 @@ $contrastcolor: white;
 // Header
 // --------------------------
 
-nav {
+nav, input {
   @include white-text-black-bg;
   display: flex;
   justify-content: flex-start;
@@ -33,3 +33,5 @@ nav {
     }
   }
 }
+
+

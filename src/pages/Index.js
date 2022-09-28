@@ -63,9 +63,13 @@ function Index(props) {
           value={newForm.title}
           name="title"
           placeholder="title"
-          onChange="Create Person"/>
+          onChange={handleChange}/>
+          <input type="submit" value="Create Person" />
         </form>
-    {props.people ? loaded() : loading()};
+        <div className="index">
+        {props.people ? loaded() : loading()}
+        </div>
+    
     </section>
   )
 }

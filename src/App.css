@@ -40,3 +40,13 @@
 img {
   max-width: 200px;
 }
+
+.index {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.person {
+  margin: 100px;
+}
